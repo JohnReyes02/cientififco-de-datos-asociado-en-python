@@ -1,0 +1,44 @@
+project:
+  type: book
+  output-dir: docs
+
+lang: es
+
+execute: 
+  freeze: auto
+
+book:
+  title: "Científico de Datos Asociado en Python"
+  author: "Edwin John Fredy Reyes Aguirre"
+  reader-mode: false
+  date: last-modified
+
+  sidebar:
+    style: docked
+    search: true
+    collapse-level: 1
+  
+  repo-url: https://github.com/JohnReyes02/cientififco-de-datos-asociado-en-python
+  repo-branch: main
+  repo-actions: [edit, issue, source]
+  sharing: [twitter, facebook, linkedin]
+
+  chapters:
+    - part: "Machine Learning con Modelos Basados en Árboles"
+      chapters:
+        - Machine_learning_con_modelos_basados_en_arboles_en_python/index.qmd
+
+website:
+  site-url: https://johnreyes02.github.io/cientififco-de-datos-asociado-en-python/
+
+format:
+  html:
+    theme: 
+      light: flatly
+      dark: darkly
+    toc: true
+    toc-title: 'Contenido'
+    number-sections: false
+    code-copy: true
+    code-overflow: wrap
+    fig-align: center
